@@ -97,16 +97,17 @@ console.log(text)
 
 |Left Heading|Centered Title|Right Heading|
 |:-|:-:|-:|
-|Random number:575108368664198|Random number:6477531170613555|Random number:6258533703487417|
-|Random number:03552461275272445|Random number:4041710860771859|Random number:3705893981698465|
-|Random number:14521039860424168|Random number:4142834031885594|Random number:25189483881503016|
-|Random number:7999577404557872|Random number:9993776620273802|Random number:5329470315230076|
-|Random number:6692811087382027|Random number:7116792896008115|Random number:665256704743693|
-|Random number:6775192846820857|Random number:6134807589454889|Random number:07348813241141294|
-|Random number:003901071444285975|Random number:9905935450082635|Random number:004873870099286304|
-|Random number:19433114542188368|Random number:1403297276346509|Random number:4983326707765219|
-|Random number:05064109737738298|Random number:942239941248664|Random number:09121071295812055|
-|Random number:0290894364536749|Random number:30486373516116827|Random number:02585402871694442|
+|Random number:5669608499271732|Random number:822861640346237|Random number:7244534469040349|
+|Random number:10745840534327766|Random number:9117248410207066|Random number:9755001121060414|
+|Random number:6490337508652695|Random number:876615494468779|Random number:7131750513150117|
+|Random number:7644423941549752|Random number:7538580549229508|Random number:6427096909723573|
+|Random number:6352407666478948|Random number:4828994858707112|Random number:7144886776381525|
+|Random number:4743367080112779|Random number:7584749523913845|Random number:5740721419923793|
+|Random number:21583645400125406|Random number:06844433592534305|Random number:5315141299902535|
+|Random number:9282516782213022|Random number:6574634080736728|Random number:3887930095255703|
+|Random number:21006083397989395|Random number:12174681267717369|Random number:8962256682631953|
+|Random number:27151271690014345|Random number:9587690036849079|Random number:7963826037882553|
+
 <h1>Native HTML</h1>
 <div style="background: yellow;height: 80px;display: flex;justify-content: center;align-items: center;">
   <p>Here you can edit HTML by task</p>
