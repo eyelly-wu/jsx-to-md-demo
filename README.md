@@ -97,16 +97,17 @@ console.log(text)
 
 |Left Heading|Centered Title|Right Heading|
 |:-|:-:|-:|
-|Random number:575108368664198|Random number:6477531170613555|Random number:6258533703487417|
-|Random number:03552461275272445|Random number:4041710860771859|Random number:3705893981698465|
-|Random number:14521039860424168|Random number:4142834031885594|Random number:25189483881503016|
-|Random number:7999577404557872|Random number:9993776620273802|Random number:5329470315230076|
-|Random number:6692811087382027|Random number:7116792896008115|Random number:665256704743693|
-|Random number:6775192846820857|Random number:6134807589454889|Random number:07348813241141294|
-|Random number:003901071444285975|Random number:9905935450082635|Random number:004873870099286304|
-|Random number:19433114542188368|Random number:1403297276346509|Random number:4983326707765219|
-|Random number:05064109737738298|Random number:942239941248664|Random number:09121071295812055|
-|Random number:0290894364536749|Random number:30486373516116827|Random number:02585402871694442|
+|Random number:9971176973387248|Random number:21624610838078384|Random number:147378555328036|
+|Random number:7281701157483862|Random number:28062210605518323|Random number:7575161737975713|
+|Random number:3594871583579171|Random number:8170678972981|Random number:009395785301425708|
+|Random number:3734298408197618|Random number:6055528852074827|Random number:19999217599677666|
+|Random number:9355554914653295|Random number:995223776649576|Random number:7518679877904328|
+|Random number:5008891516023222|Random number:5936920455355721|Random number:44931118411559967|
+|Random number:2447320047586934|Random number:42291094450602795|Random number:17909365856775405|
+|Random number:5292774172929309|Random number:7955302451739978|Random number:5116034513943115|
+|Random number:7190575531197694|Random number:3368698865257469|Random number:9812675812810316|
+|Random number:902993117523869|Random number:7996693629138119|Random number:7011651512624864|
+
 <h1>Native HTML</h1>
 <div style="background: yellow;height: 80px;display: flex;justify-content: center;align-items: center;">
   <p>Here you can edit HTML by task</p>
