@@ -94,7 +94,7 @@ console.log(text)`}
 
     
     <H1>{i18n('图片')}</H1>
-    <Image title={i18n('图片标题')} alt={i18n('图片说明')} href="abd"/>
+    <Image title={i18n('图片标题')} alt={i18n('图片说明')} src="abd"/>
 
 
     <H1>{i18n('列表')}</H1>
