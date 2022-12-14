@@ -14,7 +14,7 @@
   "devDependencies": {
     "@eyelly/prettier-config": "^1.0.0",
     "i18n-pro": "^1.3.2",
-    "jsx-to-md": "0.5.0",
-    "prettier": "^2.8.0"
+    "jsx-to-md": "0.8.0",
+    "prettier": "^2.8.1"
   }
 }

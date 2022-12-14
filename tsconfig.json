@@ -13,5 +13,9 @@
     "resolveJsonModule": true,
     "jsx": "react",
     "esModuleInterop": true
-  }
+  },
+  "include": [
+    "./docs",
+    "global.d.ts"
+  ]
 }

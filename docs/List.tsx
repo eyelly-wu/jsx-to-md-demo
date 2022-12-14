@@ -1,0 +1,105 @@
+import React, {
+  H1,
+  H2,
+  H3,
+  List,
+  ListItem,
+  OderList,
+  UnorderList,
+} from 'jsx-to-md'
+
+export default function ListDemo() {
+  return (
+    <>
+      <H1>{i18n('列表')}</H1>
+      <H2>{i18n('语义类型')}</H2>
+      <H3>{i18n('无序列表')}</H3>
+      <UnorderList>
+        <ListItem>{i18n('列表项1')}</ListItem>
+        <ListItem>{i18n('列表项2')}</ListItem>
+        <ListItem>{i18n('列表项3')}</ListItem>
+      </UnorderList>
+      <H3>{i18n('有序列表')}</H3>
+      <OderList>
+        <ListItem>{i18n('列表项1')}</ListItem>
+        <ListItem>{i18n('列表项2')}</ListItem>
+        <ListItem>{i18n('列表项3')}</ListItem>
+      </OderList>
+      <H3>{i18n('嵌套列表')}</H3>
+      <UnorderList>
+        <ListItem>
+          {i18n('开发')}
+          <OderList level={2}>
+            <ListItem>
+              {i18n('前端')}
+              <UnorderList level={3}>
+                <ListItem>JavaScript</ListItem>
+                <ListItem>HTML</ListItem>
+                <ListItem>CSS</ListItem>
+                <ListItem>...</ListItem>
+              </UnorderList>
+            </ListItem>
+            <ListItem>
+              {i18n('后端')}
+              <UnorderList level={3}>
+                <ListItem>Java</ListItem>
+                <ListItem>SQL</ListItem>
+                <ListItem>...</ListItem>
+              </UnorderList>
+            </ListItem>
+          </OderList>
+        </ListItem>
+        <ListItem>
+          {i18n('测试')}
+          <UnorderList level={2}>
+            <ListItem>
+              {i18n('单元测试')}
+              <OderList level={3}>
+                <ListItem>JUnit</ListItem>
+                <ListItem>Jest</ListItem>
+                <ListItem>Vitest</ListItem>
+                <ListItem>...</ListItem>
+              </OderList>
+            </ListItem>
+            <ListItem>
+              {i18n('E2E测试')}
+              <OderList level={3}>
+                <ListItem>Cypress</ListItem>
+                <ListItem>...</ListItem>
+              </OderList>
+            </ListItem>
+          </UnorderList>
+        </ListItem>
+        <ListItem>...</ListItem>
+      </UnorderList>
+      <H2>{i18n('简易类型')}</H2>
+      <H3>{i18n('无序列表')}</H3>
+      <List items={['U', i18n('列表项1'), i18n('列表项2'), i18n('列表项3')]} />
+      <H3>{i18n('有序列表')}</H3>
+      <List items={['O', i18n('列表项1'), i18n('列表项2'), i18n('列表项3')]} />
+      <H3>{i18n('嵌套列表')}</H3>
+      <List
+        items={[
+          'O',
+          [
+            i18n('开发'),
+            [
+              'O',
+              [i18n('前端'), ['U', 'JavaScript', 'HTML', 'CSS', '...']],
+              [i18n('后端'), ['U', 'Java', 'SQL', '...']],
+            ],
+          ],
+          [
+            i18n('测试'),
+            [
+              'U',
+              [i18n('单元测试'), ['O', 'JUnit', 'Jest', 'Vitest']],
+              [i18n('E2E测试'), ['O', 'Cypress', '...']],
+            ],
+          ],
+          '...',
+        ]}
+      />
+    </>
+  )
+}
