@@ -5,7 +5,7 @@ import React, {
   List,
   ListItem,
   OderList,
-  UnorderList,
+  UnorderedList,
 } from 'jsx-to-md'
 
 export default function ListDemo() {
@@ -14,11 +14,11 @@ export default function ListDemo() {
       <H1>{i18n('列表')}</H1>
       <H2>{i18n('语义类型')}</H2>
       <H3>{i18n('无序列表')}</H3>
-      <UnorderList>
+      <UnorderedList>
         <ListItem>{i18n('列表项1')}</ListItem>
         <ListItem>{i18n('列表项2')}</ListItem>
         <ListItem>{i18n('列表项3')}</ListItem>
-      </UnorderList>
+      </UnorderedList>
       <H3>{i18n('有序列表')}</H3>
       <OderList>
         <ListItem>{i18n('列表项1')}</ListItem>
@@ -26,32 +26,32 @@ export default function ListDemo() {
         <ListItem>{i18n('列表项3')}</ListItem>
       </OderList>
       <H3>{i18n('嵌套列表')}</H3>
-      <UnorderList>
+      <UnorderedList>
         <ListItem>
           {i18n('开发')}
           <OderList level={2}>
             <ListItem>
               {i18n('前端')}
-              <UnorderList level={3}>
+              <UnorderedList level={3}>
                 <ListItem>JavaScript</ListItem>
                 <ListItem>HTML</ListItem>
                 <ListItem>CSS</ListItem>
                 <ListItem>...</ListItem>
-              </UnorderList>
+              </UnorderedList>
             </ListItem>
             <ListItem>
               {i18n('后端')}
-              <UnorderList level={3}>
+              <UnorderedList level={3}>
                 <ListItem>Java</ListItem>
                 <ListItem>SQL</ListItem>
                 <ListItem>...</ListItem>
-              </UnorderList>
+              </UnorderedList>
             </ListItem>
           </OderList>
         </ListItem>
         <ListItem>
           {i18n('测试')}
-          <UnorderList level={2}>
+          <UnorderedList level={2}>
             <ListItem>
               {i18n('单元测试')}
               <OderList level={3}>
@@ -68,10 +68,10 @@ export default function ListDemo() {
                 <ListItem>...</ListItem>
               </OderList>
             </ListItem>
-          </UnorderList>
+          </UnorderedList>
         </ListItem>
         <ListItem>...</ListItem>
-      </UnorderList>
+      </UnorderedList>
       <H2>{i18n('简易类型')}</H2>
       <H3>{i18n('无序列表')}</H3>
       <List items={['U', i18n('列表项1'), i18n('列表项2'), i18n('列表项3')]} />
