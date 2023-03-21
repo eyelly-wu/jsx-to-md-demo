@@ -46,6 +46,10 @@ export default function MarkDown(props: any) {
           ' `StackBlitz` ',
           ' `docs/index.tsx` ',
         )}
+        {i18n(
+          '有一点需要注意：目前{0}不支持原生HTML，因此预览可能原生HTML会存在问题',
+          ' `StackBlitz` ',
+        )}
         <Break />
       </div>
 

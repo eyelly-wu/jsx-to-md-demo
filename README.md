@@ -1,6 +1,6 @@
 <div align="center">
   
-当前文档基于 [jsx-to-md](https://github.com/eyelly-wu/jsx-to-md) 和 [i18n-pro](https://github.com/eyelly-wu/i18n-pro) 生成，如果你当前是通过 `CodeSandbox` 或者 `StackBlitz` 访问本项目，你可以通过编辑 `docs/index.tsx` 来实时更新当前文档
+The current document is generated based on [jsx-to-md](https://github.com/eyelly-wu/jsx-to-md) and [i18n-pro](https://github.com/eyelly-wu/i18n-pro). If you currently access this project through  `CodeSandbox`  or  `StackBlitz` , you can update the current document in real time by editing  `docs/index.tsx` One thing to note:  `StackBlitz`  currently does not support native HTML, so previewing native HTML may have problems
 
 </div>
 <details >
@@ -29,9 +29,9 @@
   [Task List](#task-list)<br/>
   &emsp;&emsp;[Basic](#basic)<br/>
   &emsp;&emsp;[Nesting](#nesting)<br/>
-  [异步渲染](#异步渲染)<br/>
-  &emsp;&emsp;[基础的](#基础的)<br/>
-  &emsp;&emsp;[嵌套的](#嵌套的)<br/>
+  [Asynchronous rendering](#asynchronous-rendering)<br/>
+  &emsp;&emsp;[basic](#basic)<br/>
+  &emsp;&emsp;[Nested](#nested)<br/>
   [Native HTML](#native-html)<br/>
 
 </details>
@@ -171,16 +171,16 @@ console.log(text)
 
 |Left Title|Centered Title|Right Title|
 |:-|:-:|-:|
-|Random number:9392426961262375|Random number:8702265734708405|Random number:03235711482835413|
-|Random number:49188586109805077|Random number:6235971348369276|Random number:28458889321078695|
-|Random number:711382911255938|Random number:21162602720597534|Random number:36279068744573073|
-|Random number:25508393894390524|Random number:3980633581332125|Random number:9245422817849336|
-|Random number:09197027923561585|Random number:2266949122663442|Random number:894821260388027|
-|Random number:25994379705013126|Random number:665838128851884|Random number:9982012619540892|
-|Random number:4158809480891714|Random number:35632608028634505|Random number:7943208190108679|
-|Random number:7373105495364469|Random number:9694673492190398|Random number:7023162800573806|
-|Random number:11538604945992503|Random number:6722780477015418|Random number:5807155544062255|
-|Random number:20125115439897545|Random number:6337236189703062|Random number:02271003482496603|
+|Random number:7939743194581366|Random number:6302781321053128|Random number:24698714406025202|
+|Random number:7434102446769197|Random number:9835439299411526|Random number:5509228448223653|
+|Random number:36828209856918503|Random number:8786314966335742|Random number:6646051502494674|
+|Random number:0169692405439974|Random number:5521335765433817|Random number:5669914596485788|
+|Random number:9282797509172946|Random number:8544604360216885|Random number:4564293938579138|
+|Random number:021551808286586205|Random number:5107091608825314|Random number:2531445957573091|
+|Random number:05530664900142912|Random number:10026840460626674|Random number:8747225741071345|
+|Random number:7564712799768936|Random number:9198497483712442|Random number:33209747068596784|
+|Random number:7494061000876984|Random number:9972342353276642|Random number:5896508499878474|
+|Random number:5370100591111162|Random number:8793350451563842|Random number:253368515858841|
 
 # Task List
 
@@ -209,11 +209,11 @@ console.log(text)
 - [x] twoLevelEmpty
 
 
-# 异步渲染
+# Asynchronous rendering
 
-## 基础的
+## basic
 Hi jsx-to-md
-## 嵌套的
+## Nested
 H1 jsx-to-md, this is jsx-to-md-demo
 
 <h1>Native HTML</h1>

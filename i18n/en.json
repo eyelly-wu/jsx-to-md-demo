@@ -38,7 +38,6 @@
   "靠左标题": "Left Title",
   "靠右标题": "Right Title",
   "原生HTML": "Native HTML",
-  "当前文档基于 {0} 和 {1} 生成，你可以通过编辑{2}来实时更新当前文档": "The current document is generated based on {0} and {1}. You can update the current document in real time by editing {2}",
   "删除线": "Strikethrough",
   "语义类型": "Semantic type",
   "简易类型": "Simple type",
@@ -47,5 +46,10 @@
   "基础": "Basic",
   "嵌套": "Nesting",
   "这里可以任意编辑HTML": "You can edit HTML here",
-  "目录": "Table of Contents"
+  "目录": "Table of Contents",
+  "异步渲染": "Asynchronous rendering",
+  "基础的": "basic",
+  "嵌套的": "Nested",
+  "当前文档基于 {0} 和 {1} 生成，如果你当前是通过{2}或者{3}访问本项目，你可以通过编辑{4}来实时更新当前文档": "The current document is generated based on {0} and {1}. If you currently access this project through {2} or {3}, you can update the current document in real time by editing {4}",
+  "有一点需要注意：目前{0}不支持原生HTML，因此预览可能原生HTML会存在问题": "One thing to note: {0} currently does not support native HTML, so previewing native HTML may have problems"
 }
