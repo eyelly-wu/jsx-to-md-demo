@@ -1,4 +1,4 @@
-import React, { BlockQuote, H1, H2, TaskList } from 'jsx-to-md'
+import { BlockQuote, H1, H2, TaskList } from 'jsx-to-md'
 
 export default function TaskListDemo() {
   return (

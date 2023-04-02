@@ -1,4 +1,4 @@
-import React, { Break, Link, render, TableOfContents } from 'jsx-to-md'
+import { Break, Link, render, TableOfContents } from 'jsx-to-md'
 import { setI18N, i18n } from 'i18n-pro'
 import Heading from './Heading'
 import Font from './Font'

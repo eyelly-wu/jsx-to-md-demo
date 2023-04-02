@@ -1,4 +1,4 @@
-import React, { H1, H2, AsyncWrapper } from 'jsx-to-md'
+import { H1, H2, AsyncWrapper } from 'jsx-to-md'
 
 export default function AsyncDemo() {
   type Data = {

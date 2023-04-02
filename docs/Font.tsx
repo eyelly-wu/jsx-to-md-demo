@@ -1,11 +1,4 @@
-import React, {
-  Bold,
-  BoldItalic,
-  Break,
-  H1,
-  Italic,
-  StrikeThrough,
-} from 'jsx-to-md'
+import { Bold, BoldItalic, Break, H1, Italic, StrikeThrough } from 'jsx-to-md'
 
 export default function Font() {
   return (

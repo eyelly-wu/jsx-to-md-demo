@@ -1,4 +1,4 @@
-import React, { BlockQuote, Break, H1, H2, Link } from 'jsx-to-md'
+import { BlockQuote, Break, H1, H2, Link } from 'jsx-to-md'
 
 export default function LinkDemo() {
   return (

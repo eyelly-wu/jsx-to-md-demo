@@ -1,4 +1,4 @@
-import React, { H1, H2, H3, H4, H5, H6 } from 'jsx-to-md'
+import { H1, H2, H3, H4, H5, H6 } from 'jsx-to-md'
 
 export default function Heading() {
   return (

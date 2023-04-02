@@ -1,4 +1,4 @@
-import React, { H1, Table } from 'jsx-to-md'
+import { H1, Table } from 'jsx-to-md'
 
 export default function TableDemo() {
   return (

@@ -1,4 +1,4 @@
-import React, { H1, Image } from 'jsx-to-md'
+import { H1, Image } from 'jsx-to-md'
 
 export default function ImageDemo() {
   return (

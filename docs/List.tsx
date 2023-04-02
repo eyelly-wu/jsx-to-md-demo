@@ -1,12 +1,4 @@
-import React, {
-  H1,
-  H2,
-  H3,
-  List,
-  ListItem,
-  OderList,
-  UnorderedList,
-} from 'jsx-to-md'
+import { H1, H2, H3, List, ListItem, OderList, UnorderedList } from 'jsx-to-md'
 
 export default function ListDemo() {
   return (

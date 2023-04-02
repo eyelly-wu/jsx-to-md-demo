@@ -1,4 +1,4 @@
-import React, { CodeBlock, H1, H2, InlineCode } from 'jsx-to-md'
+import { CodeBlock, H1, H2, InlineCode } from 'jsx-to-md'
 
 export default function Code() {
   return (
