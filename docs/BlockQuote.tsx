@@ -3,10 +3,10 @@ import { BlockQuote, H1, H2 } from 'jsx-to-md'
 export default function BlockQuoteDemo() {
   return (
     <>
-      <H1>{i18n('引用块')}</H1>
-      <H2>{i18n('普通引用')}</H2>
+      <H1>{t('引用块')}</H1>
+      <H2>{t('普通引用')}</H2>
       <BlockQuote>text</BlockQuote>
-      <H2>{i18n('嵌套引用')}</H2>
+      <H2>{t('嵌套引用')}</H2>
       <BlockQuote>
         text1
         <BlockQuote level={2}>

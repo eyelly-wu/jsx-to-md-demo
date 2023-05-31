@@ -22,14 +22,14 @@ export default function AsyncDemo() {
 
   return (
     <>
-      <H1>{i18n('异步渲染')}</H1>
-      <H2>{i18n('基础的')}</H2>
+      <H1>{t('异步渲染')}</H1>
+      <H2>{t('基础的')}</H2>
       <AsyncWrapper data={asyncData1}>
         {({ name }) => {
           return <>Hi {name}</>
         }}
       </AsyncWrapper>
-      <H2>{i18n('嵌套的')}</H2>
+      <H2>{t('嵌套的')}</H2>
       <AsyncWrapper data={asyncData1}>
         {({ name }) => {
           return (

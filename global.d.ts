@@ -1,4 +1,4 @@
-declare function i18n(
+declare function t(
   text: string,
   ...args: Array<string | number | unknown>
 ): string
